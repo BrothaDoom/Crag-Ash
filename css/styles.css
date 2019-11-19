@@ -1,4 +1,39 @@
-p {
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+@import url('https://rsms.me/inter/inter.css');
+html {
+	font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+	  font-family: 'Inter var', sans-serif;
+  }
+}
+
+body {
+	background-color: #1B1515;
+	font-family: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+	color: #F0F0F0;
+}
+nav {
+	padding: 3rem 0;
+	opacity: 0.5;
+	transition: all ease 0.75s;
+}
+nav:hover {
+	opacity: 1;
+}
+nav a {
+	color: #f0f0f0;
+	border-bottom: 2px solid #1B1515;
+	text-decoration: none;
+	transition: all ease 0.75s;
+	margin-right: 2rem;
+	padding-bottom: 1rem;
+}
+nav a:hover {
+	color: #f0f0f0;
+	border-bottom: 2px solid #E52F2F;
+}
+h1 {
+	font-weight: 900;
+	font-family: 'Inter', sans-serif;
 }
