@@ -60,9 +60,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/css/styles-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/images/favicon.png": {
@@ -74,17 +74,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"/images/finger.jpg": {
-		"ft": 16384,
-		"iS": 69065,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/finger.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"/images/hero.jpg": {

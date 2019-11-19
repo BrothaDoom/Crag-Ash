@@ -37,3 +37,6 @@ h1 {
 	font-weight: 900;
 	font-family: 'Inter', sans-serif;
 }
+.section-label {
+	height: 90px;
+}
