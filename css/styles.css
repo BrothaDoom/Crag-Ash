@@ -8,10 +8,17 @@ html {
   }
 }
 
+:root {
+	--red: #F06D06;
+	--white: #F0F0F0;
+	--black: #1B1515;
+	--red: #E52F2F;
+}
+
 body {
-	background-color: #1B1515;
+	background-color: var(--black);
 	font-family: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-	color: #F0F0F0;
+	color: var(--white);
 }
 nav {
 	padding: 3rem 0;
@@ -22,8 +29,8 @@ nav:hover {
 	opacity: 1;
 }
 nav a {
-	color: #f0f0f0;
-	border-bottom: 2px solid #1B1515;
+	color: var(--white);
+	border-bottom: 2px solid var(--black);
 	text-decoration: none;
 	transition: all ease 0.75s;
 	margin-right: 2rem;
@@ -31,7 +38,7 @@ nav a {
 }
 nav a:hover {
 	color: #f0f0f0;
-	border-bottom: 2px solid #E52F2F;
+	border-bottom: 2px solid var(--red);
 }
 h1 {
 	font-weight: 900;
